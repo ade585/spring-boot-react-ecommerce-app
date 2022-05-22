@@ -22,7 +22,8 @@ public class AuthDataServiceImpl implements AuthDataService {
 
         if(result.isPresent()) {
             userInfo = result.get();
-        }
+        } 
+
 
         return userInfo;
     }
@@ -34,8 +35,7 @@ public class AuthDataServiceImpl implements AuthDataService {
 
         if(result.isPresent()) {
             userInfo = result.get();
-        }
-
+        } 
         return userInfo;
     }
 
